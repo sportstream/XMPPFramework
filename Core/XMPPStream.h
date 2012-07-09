@@ -19,10 +19,10 @@
 
 #if TARGET_OS_IPHONE
   #define MIN_KEEPALIVE_INTERVAL      20.0 // 20 Seconds
-  #define DEFAULT_KEEPALIVE_INTERVAL 120.0 //  2 Minutes
+  #define DEFAULT_KEEPALIVE_INTERVAL 30.0 // 30 Seconds
 #else
   #define MIN_KEEPALIVE_INTERVAL      10.0 // 10 Seconds
-  #define DEFAULT_KEEPALIVE_INTERVAL 300.0 //  5 Minutes
+  #define DEFAULT_KEEPALIVE_INTERVAL 30.0 //  30 Seconds
 #endif
 
 extern NSString *const XMPPStreamErrorDomain;
